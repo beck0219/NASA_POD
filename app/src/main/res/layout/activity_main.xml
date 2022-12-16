@@ -27,11 +27,11 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/bDateSet"
+            android:id="@+id/bSavePOTD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="bDateSet" />
+            android:text="bSavePOTD" />
 
         <Space
             android:layout_width="wrap_content"
@@ -51,11 +51,11 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/bAddToList"
+            android:id="@+id/bPickDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="bAddToList" />
+            android:text="bPickDate" />
 
         <Space
             android:layout_width="wrap_content"
