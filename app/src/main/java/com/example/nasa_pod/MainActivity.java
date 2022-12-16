@@ -21,6 +21,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import org.json.JSONException;
@@ -188,6 +189,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         listView.setAdapter(adapter);
         GetJSONDataTask task = new GetJSONDataTask();
         String jsonData = null;
+        ProgressBar progressBar = findViewById(R.id.progressBar);
+
         try {
             jsonData = task.execute().get();
             String title, date, imageurl, description;
@@ -199,6 +202,10 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 description = imageData.getString("explanation");
                 POTD potd = new POTD(title, date,imageurl,description);
                 adapter.add(potd);
+
+
+
+                progressBar.setVisibility(View.INVISIBLE);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -258,6 +265,10 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ProgressBar progressBar = findViewById(R.id.progressBar);
+
+        progressBar.setVisibility(View.VISIBLE);
         ArrayList<POTD> new_image_of_the_day_list = new ArrayList<POTD>();
         POTDAdapter adapter = new POTDAdapter(this, new_image_of_the_day_list);
         ListView listView = findViewById(R.id.image_of_the_day_list);
@@ -275,6 +286,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 description = imageData.getString("explanation");
                 POTD potd = new POTD(title, date,imageurl,description);
                 adapter.add(potd);
+
+                progressBar.setVisibility(View.INVISIBLE);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -305,5 +318,9 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 populateListView();
             }
         });
+
+
+
+
     }
 }
