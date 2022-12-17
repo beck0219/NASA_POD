@@ -1,9 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">NASA_POD</string>
     <string name="test_image_title">Decorating the Sky</string>
     <string name="test_image_date">Mon, 27 Dec 2022 00:00:00 EST</string>
     <string name="test_image_description">This image was taken by NASA....etc.etc.</string>
-    <string name="button_save">Save POTD</string>
-    <string name="button_view">Saved List</string>
-    <string name="button_pick_date">Pick Date</string>
+    <string name="button_save">Enregistrer POTD</string>
+    <string name="button_view">Liste enregistrée</string>
+    <string name="button_pick_date">Choisir la date</string>
+
+
 </resources>
