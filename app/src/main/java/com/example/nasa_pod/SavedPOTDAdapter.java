@@ -32,8 +32,10 @@ public class SavedPOTDAdapter extends ArrayAdapter<SavedPOTD> {
         }
         TextView tvDate = (TextView) convertView.findViewById(R.id.tvSavedDate);
         ImageView ivImageUrl = (ImageView) convertView.findViewById(R.id.ivSavedImage);
-        Glide.with(getContext()).load(savedPOTD.potdImageUrl).into(ivImageUrl);
+
         tvDate.setText(savedPOTD.potdDate);
+        Glide.with(getContext()).load(savedPOTD.potdImageUrl).into(ivImageUrl);
+
         return convertView;
     }
 }
