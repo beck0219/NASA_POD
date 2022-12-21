@@ -92,6 +92,14 @@ public class ActivitySavedImagesAndDates extends AppCompatActivity implements Na
                 Intent intent2 = new Intent(ActivitySavedImagesAndDates.this, ActivitySavedImagesAndDates.class);
                 startActivity(intent2);
                 break;
+            case R.id.nav_about_nasa:
+                Intent intent3 = new Intent(ActivitySavedImagesAndDates.this, AboutNasaActivity.class);
+                startActivity(intent3);
+                break;
+            case R.id.nav_about_artemis:
+                Intent intent4 = new Intent(ActivitySavedImagesAndDates.this, AboutArtemisActivity.class);
+                startActivity(intent4);
+                break;
             case R.id.nav_my_account:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MyAccountActivity()).commit();
                 break;

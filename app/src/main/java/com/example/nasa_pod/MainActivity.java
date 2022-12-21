@@ -238,6 +238,14 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 Intent intent2 = new Intent(MainActivity.this, ActivitySavedImagesAndDates.class);
                 startActivity(intent2);
                 break;
+            case R.id.nav_about_nasa:
+                Intent intent3 = new Intent(MainActivity.this, AboutNasaActivity.class);
+                startActivity(intent3);
+                break;
+            case R.id.nav_about_artemis:
+                Intent intent4 = new Intent(MainActivity.this, AboutArtemisActivity.class);
+                startActivity(intent4);
+                break;
             case R.id.nav_my_account:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MyAccountActivity()).commit();
                 break;
