@@ -121,7 +121,7 @@ public class ActivitySavedImagesAndDates extends AppCompatActivity implements Na
     public void showHelpDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Help");
-        builder.setMessage("This interface allows you to view, save, and pick dates for images of the day. To view the list of images, press the 'Saved Pictures' button. You can also view your account information in the drawer menu to the left. There you can input your name to be stored for later.");
+        builder.setMessage("This page shows you all of the NASA Pictures of the day that you've saved to your device. Long-press on an image to delete it from the database.");
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

@@ -49,11 +49,13 @@ tools:context=".MainActivity">
             android:textSize="14sp" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#131313"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -71,15 +73,15 @@ tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="391dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
+            android:textColor="#FF9C9C"
             android:textSize="20sp"
-            android:textStyle="bold"
             tools:text="Artemis I Update: Orion Offloaded from USS Portland in Preparation for Transport to Kennedy Space Center" />
 
         <View
@@ -91,9 +93,10 @@ tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/textView7"
-            android:layout_width="371dp"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:text="Team members with NASA’s Exploration Ground Systems program successfully removed the Artemis I Orion spacecraft from the USS Portland Dec. 14, after the ship arrived at U.S. Naval Base San Diego a day earlier. The spacecraft successfully splashed down Dec. 11 in the Pacific Ocean west of Baja California after completing a 1.4 million-mile journey beyond the Moon and back, and was recovered by NASA’s Landing and Recovery team and personnel from the Department of Defense. "
@@ -102,9 +105,10 @@ tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/textView8"
-            android:layout_width="373dp"
+            android:layout_width="281dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="20dp"
             android:text="Engineers will conduct inspections around the spacecraft’s windows before installing hard covers and deflating the five airbags on the crew module uprighting system in preparation for the final leg of Orion’s journey over land. It will be loaded on a truck and transported back to the agency’s Kennedy Space Center in Florida for post-flight analysis.  "
             android:textColor="#FFFFFF" />
 

@@ -46,6 +46,13 @@
 
         </LinearLayout>
 
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
         <ListView
             android:id="@+id/image_of_the_day_list"
             android:layout_width="match_parent"

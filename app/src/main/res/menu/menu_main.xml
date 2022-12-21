@@ -27,12 +27,12 @@
                 android:title="@string/Saved_pics_title" />
             <item
                 android:id="@+id/nav_about_nasa"
-                android:icon="@drawable/ic_my_image"
+                android:icon="@drawable/ic_news"
 
                 android:title="About NASA" />
             <item
                 android:id="@+id/nav_about_artemis"
-                android:icon="@drawable/ic_my_image"
+                android:icon="@drawable/ic_news"
 
                 android:title="About Artemis" />
 
