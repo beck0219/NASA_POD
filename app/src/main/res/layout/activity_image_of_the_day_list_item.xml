@@ -70,7 +70,8 @@
         android:layout_weight="1"
         android:padding="10dp"
         android:text="TextView"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
 
     <!--    <TextView-->
     <!--        android:id="@+id/tvDate"-->

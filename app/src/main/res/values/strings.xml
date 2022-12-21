@@ -1,9 +1,32 @@
 <resources>
-    <string name="app_name">NASA_POD</string>
+<!--    <string name="app_name">NASA_POD</string>-->
     <string name="test_image_title">Decorating the Sky</string>
     <string name="test_image_date">Mon, 27 Dec 2022 00:00:00 EST</string>
     <string name="test_image_description">This image was taken by NASA....etc.etc.</string>
     <string name="button_save">Save POTD</string>
     <string name="button_view">Saved List</string>
     <string name="button_pick_date">Pick Date</string>
+
+
+        <string name="app_name">NASA POTD</string>
+        <!-- to toggle the open close button of the navigation drawer -->
+        <string name="nav_open">Open</string>
+        <string name="nav_close">Close</string>
+
+        <string name="navigation_drawer_open">Open Navigation Drawer</string>
+        <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="activity_title">Title 1</string>
+    <string name="version_number">Version 1</string>
+
+    <string name="help_title">Help</string>
+    <string name="my_account">My Account</string>
+    <string name="POD_title">Picture of the Day</string>
+    <string name="Saved_pics_title">Saved Pictures</string>
+    <string name="drawer_title">NASA picture of the day</string>
+    <string name="account_name_title">Name: </string>
+    <string name="account_input_hint">Type your name here</string>
+    <string name="submit_account_button">submit</string>
+
+
 </resources>
