@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     public void showHelpDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Help");
-        builder.setMessage("This page displays the NASA Image of the Day. Press the top left menu button to open the apps navigation. There you can view other pages in the app and add your name to the My Account fragment. Also press the PickDate button to select an Image of the Day you would like to view. Press the SavePOTD button to save that image for later viewing.");
+        builder.setMessage("This page displays the NASA Image of the Day. Press the top left menu button to open the apps navigation. There you can view other pages in the app and add your name to the My Account fragment. Also press the PickDate button to select an Image of the Day you would like to view. Press the SavePOTD button to save that image for later viewing. Also click on the current picture that's loaded to view MORE information about that item.");
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
